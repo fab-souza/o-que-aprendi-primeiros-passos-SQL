@@ -64,7 +64,7 @@ SELECT COUNT (id),
 
 -- Verificando a quantidade de notas e resenhas no Goodreads e a média dos score
 
-SELECT COUNT (ratings),
-	   COUNT (reviews),
+SELECT SUM (ratings),
+       SUM (reviews),
        ROUND(AVG(score),2)
   FROM goodreads;
