@@ -47,3 +47,11 @@ INSERT INTO goodreads (score, ratings, reviews) VALUES (4.1, 197, 18);
 
 SELECT * FROM estante
   JOIN goodreads ON goodreads.id = estante.id
+
+-- Visualizar dados específicos, comparando minha nota com a nota no Goodreads
+
+SELECT estante.titulo as "Nome do livro",
+	   estante.nota as "Minha nota",
+       goodreads.score as "Nota no Goodreads"
+  FROM estante
+  JOIN goodreads ON goodreads.id = estante.id
