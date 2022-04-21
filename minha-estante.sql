@@ -55,3 +55,16 @@ SELECT estante.titulo as "Nome do livro",
        goodreads.score as "Nota no Goodreads"
   FROM estante
   JOIN goodreads ON goodreads.id = estante.id
+
+-- Verificando a quantidade de id presentes na tabela estante e a média das minhas notas
+
+SELECT COUNT (id),
+       ROUND(AVG(nota),2)
+  FROM estante;
+
+-- Verificando a quantidade de notas e resenhas no Goodreads e a média dos score
+
+SELECT COUNT (ratings),
+	   COUNT (reviews),
+       ROUND(AVG(score),2)
+  FROM goodreads;
