@@ -42,3 +42,8 @@ SELECT * FROM goodreads;
 INSERT INTO goodreads (score, ratings, reviews) VALUES (4.15, 163132, 20820);
 INSERT INTO goodreads (score, ratings, reviews) VALUES (4.06, 60405, 6053);
 INSERT INTO goodreads (score, ratings, reviews) VALUES (4.1, 197, 18);
+
+-- Visualizar os dados das duas tabelas
+
+SELECT * FROM estante
+  JOIN goodreads ON goodreads.id = estante.id
