@@ -21,6 +21,12 @@ Este foi o primeiro curso de banco de dados que fiz, nele aprendi como criar uma
 Depois que concluí o curso sobre PostgreSQL, resolvi criar meu próprio banco de dados e por em prática o que aprendi.
 É um projeto bem simples, com os dados de alguns livros que eu tenho, mas foi muito bom poder treinar o que aprendi :)
 
+---
+
+Muito obrigada por chegar até aqui e até a próxima 🤗
+
+
+
 ## Ferramentas utilizadas 🧰
 <p> <a href="https://www.postgresql.org/" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/640px-Postgresql_elephant.svg.png" alt="postgresql" width="40" height="40"/> </a> 
     </p>
